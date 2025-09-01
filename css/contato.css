@@ -169,11 +169,41 @@
 /* Body */
 
 main {
-    padding: 0 0 100px 0;
+    padding: 0 0 80px 0;
 }
 
 .titulo {
     font-size: 50px;
     font-family: var(--fonte-primaria);
     color: var(--cor-secundaria);
+    font-weight: 600;
+    padding: 15px 0 5px 0;
+}
+
+.titulo:hover {
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+.topico {
+    font-family: var(--fonte-secundaria);
+    font-weight: 500
+}
+
+.btn-success {
+    background-color: var(--cor-secundaria) !important;
+    border-color: var(--cor-secundaria) !important;
+    font-family: var(--fonte-primaria) !important;
+    padding: 10px 0 !important;
+    font-weight: 500 !important;
+}
+
+.btn-success:hover {
+    transform: scaleX(1.05) scaleY(1.1);
+    transition: 300ms;
+}
+
+.form-control:focus {
+    transform: scale(1.05) !important;
+    transition: 300ms;
 }
