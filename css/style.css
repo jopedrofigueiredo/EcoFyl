@@ -69,3 +69,32 @@
     transition: 300ms;
 }
 
+@media (max-width: 767px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+
+    .cabecalho_nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 50%;
+    }
+
+    .cabecalho_nav a {
+        border-bottom: 3px solid var(--cor-branco);
+    }
+
+    .cabecalho h1 {
+        padding: 50px 0 10px 0;
+    }
+
+    .cabecalho div {
+        background-color: var(--cor-terciaria);
+        border-radius: 50%;
+        padding: 10px;
+        margin: 10px 0;
+    }
+}
