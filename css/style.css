@@ -6,8 +6,10 @@
     --cor-terciaria: #DEC904;
     --cor-branco: #fff;
     --cor-preto: black;
+    --cor-cinza: #EFEBFF;
     --fonte-primaria: 'poppins';
     --fonte-secundaria: 'lora';
+    
 }
 
 /* cabecalho */
@@ -38,6 +40,7 @@
 .cabecalho_nav {
     display: flex;
     padding: 10px;
+    gap: 20px;
     ;
 }
 
@@ -73,7 +76,7 @@
     .cabecalho {
         display: flex;
         flex-direction: column;
-        height: 400px;
+        height: 450px;
     }
 
     .cabecalho_nav {
@@ -88,13 +91,76 @@
     }
 
     .cabecalho h1 {
-        padding: 50px 0 10px 0;
+        padding: 30px 0 10px 0;
     }
 
     .cabecalho div {
         background-color: var(--cor-terciaria);
         border-radius: 50%;
         padding: 10px;
-        margin: 10px 0;
+        margin: 10px 0 20px;
     }
+}
+
+
+/* Rodapé */
+.rodape {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    height: 200;
+    background-color: var(--cor-primaria);
+    padding-top: 20px;
+    color: var(--cor-branco) !important;
+}
+
+.rodape_contato {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+
+}
+
+.rodape_contato h3 {
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    padding: 20px 0 10px 0;
+}
+
+.rodape_contato p {
+    font-family: var(--fonte-primaria);
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.rodape_redes_sociais {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.rodape_redes_sociais a {
+    color: var(--cor-branco);
+    background-color: var(--cor-terciaria);
+    border-radius: 50%;
+    padding: 14px;
+}
+
+.rodape_redes_sociais a:hover,
+.rodape_contato p:hover,
+.rodape_contato h3:hover {
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+.rodape_copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.rodape_copyright p {
+    width: 75%;
+    border-top: 3px solid var(--cor-cinza);
 }
