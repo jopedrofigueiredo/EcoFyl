@@ -4,11 +4,12 @@
     --cor-primaria: #14DE04;
     --cor-secundaria: #6FDE04;
     --cor-terciaria: #DEC904;
+    --cor-quaternaria: #198754;
     --cor-branco: #fff;
     --cor-preto: black;
     --cor-cinza: #EFEBFF;
     --fonte-primaria: 'poppins';
-    --fonte-secundaria: 'lora';
+    --fonte-secundaria: 'Montserrat';
 }
 
 /* cabecalho */
@@ -187,7 +188,7 @@ main {
 
 .topico {
     font-family: var(--fonte-secundaria);
-    font-weight: 500
+    font-weight: 400
 }
 
 .btn-success {

@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos</title>
-    <link rel="stylesheet" href="../css/produtos.css">
+    <title>Camisa Sustentável</title>
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/produtosDetalhados.css">
 </head>
 
 <header class="cabecalho">
@@ -24,80 +25,66 @@
 </header>
 <body>
 
- <main class="container my-5">
-    <div class="row">
+    <main class="container my-5">
+    <div class="row g-4">
 
-      <aside class="col-md-3">
-        <h5 class="mb-3">Filtros</h5>
-        <div class="mb-3">
-          <label class="form-label">Preço</label>
-          <select class="form-select">
-            <option>Todos</option>
-            <option>Abaixo de R$50</option>
-            <option>R$50 - R$100</option>
-            <option>Acima de R$100</option>
-          </select>
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Tipo de Produto</label>
-          <select class="form-select">
-            <option>Todos</option>
-            <option>Roupas</option>
-            <option>Beleza</option>
-            <option>Casa</option>
-            <option>Tecnologia</option>
-          </select>
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Marca</label>
-          <select class="form-select">
-            <option>Todas</option>
-            <option>EcoTrend</option>
-            <option>GreenLife</option>
-            <option>BioStyle</option>
-          </select>
-        </div>
-      </aside>
+      <div class="col-md-6">
+        <img src="../assets/imgs/camisa branca.jpg" class="img-fluid rounded shadow" alt="Camisa Orgânica">
+      </div>
 
-      <section class="col-md-9">
-        <h2 class="mb-4 titulo">Categorias de Produtos</h2>
-        <div class="row g-4">
-          <div class="col-md-4">
-            <div class="card h-100 shadow">
-              <img src="img/produto2.jpg" class="card-img-top" alt="Produto Sustentável">
-              <div class="card-body">
-                <h5 class="card-title">Shampoo Natural</h5>
-                <p class="fw-bold text-success">R$ 39,90</p>
-                <a href="produto.html" class="btn btn-success w-100">Adicionar ao Carrinho</a>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-md-4">
-            <div class="card h-100 shadow">
-              <img src="img/produto3.jpg" class="card-img-top" alt="Produto Sustentável">
-              <div class="card-body">
-                <h5 class="card-title">Copo Reutilizável</h5>
-                <p class="fw-bold text-success">R$ 29,90</p>
-                <a href="produto.html" class="btn btn-success w-100">Adicionar ao Carrinho</a>
-              </div>
-            </div>
-          </div>
+      <div class="col-md-6">
+        <h2 class="fw-bold">Camisa Orgânica</h2>
+        <p class="text-muted">Categoria: Roupas Sustentáveis</p>
+        <p>
+          Esta camisa é feita com algodão 100% orgânico, livre de pesticidas e corantes artificiais. 
+          Ideal para quem busca conforto e sustentabilidade no dia a dia.
+        </p>
+        <h3 class="text-success fw-bold">R$ 89,90</h3>
+        <button class="btn btn-success btn-lg mt-3">
+          <i class="fas fa-shopping-cart me-2"></i> Adicionar ao Carrinho
+        </button>
 
-          <div class="col-md-4">
-            <div class="card h-100 shadow">
-              <img src="img/produto4.jpg" class="card-img-top" alt="Produto Sustentável">
-              <div class="card-body">
-                <h5 class="card-title">Carregador Solar</h5>
-                <p class="fw-bold text-success">R$ 199,90</p>
-                <a href="produto.html" class="btn btn-success w-100">Adicionar ao Carrinho</a>
-              </div>
-            </div>
-          </div>
+
+        <div class="mt-4">
+          <h5>Detalhes:</h5>
+          <ul>
+            <li>Tecido respirável e confortável</li>
+            <li>Disponível nos tamanhos P, M, G, GG</li>
+            <li>Produção ética e sustentável</li>
+          </ul>
         </div>
-      </section>
+      </div>
     </div>
   </main>
+
+
+  <section class="container my-5">
+    <h3 class="mb-4">Produtos Relacionados</h3>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="../assets/imgs/shampoo natural.png" class="card-img-top" alt="Shampoo Natural">
+          <div class="card-body">
+            <h5 class="card-title">Shampoo Natural</h5>
+            <p class="fw-bold text-success">R$ 39,90</p>
+            <a href="produto.html" class="btn btn-outline-success w-100">Ver Detalhes</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="../assets/imgs/copo reutilizavel.jpg" class="card-img-top" alt="Copo Reutilizável">
+          <div class="card-body">
+            <h5 class="card-title">Copo Reutilizável</h5>
+            <p class="fw-bold text-success">R$ 29,90</p>
+            <a href="produto.html" class="btn btn-outline-success w-100">Ver Detalhes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 </body>
 <footer class="rodape">
