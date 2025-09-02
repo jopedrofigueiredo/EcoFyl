@@ -145,7 +145,7 @@
     color: var(--cor-branco);
     background-color: var(--cor-terciaria);
     border-radius: 50%;
-    padding: 14px;
+    padding: 12px;
 }
 
 .rodape_redes_sociais a:hover,
