@@ -171,5 +171,21 @@
 .titulo {
     font-family: var(--fonte-primaria);
     font-weight: 600;
-    color: var(--cor-secundaria)
+    color: var(--cor-secundaria);
+}
+
+.titulo:hover {
+    transform: scaleY(1.1) scaleX(1.05);
+    transition: 300ms;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col-md-4:hover {
+    transform: scale(1.1);
+    transition: 500ms;
 }
