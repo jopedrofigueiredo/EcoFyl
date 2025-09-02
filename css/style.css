@@ -65,6 +65,10 @@
     padding: 8px;
 }
 
+.cabecalho div a {
+    color: var(--cor-preto);
+}
+
 .cabecalho div:hover {
     background-color: var(--cor-terciaria);
     border-radius: 12px;
@@ -168,3 +172,17 @@
 
 
 /* Body */
+
+.mensagem_carrinho {
+    height: 350px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+}
+
+.mensagem_carrinho h2,
+.mensagem_carrinho p{
+    font-family: var(--fonte-secundaria);
+}
+

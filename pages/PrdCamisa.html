@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecofyl</title>
+    <title>Camisa Sustentável</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/produtosDetalhados.css">
 </head>
 
 <header class="cabecalho">
-    <a href="index.html"><h1>EcoFyl</h1></a>
+    <a href="../index.html"><h1>EcoFyl</h1></a>
     <nav class="cabecalho_nav">
-        <a href="index.html">Home</a>
-        <a href="pages/produtos.html">Produtos</a>
-        <a href="pages/contato.html">Contato</a>
+        <a href="../index.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="contato.html">Contato</a>
     </nav>
     <div>
-        <a href="pages/CarrinhoCompras.html">
+        <a href="CarrinhoCompras.html">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
                 <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
             </svg>
@@ -25,48 +26,66 @@
     </div>
 </header>
 <body>
-    <main class="homeview">
 
-        <div id="carouselExampleDark" class="carousel carousel-dark slide">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-              <img src="assets/camisa branca.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
-              </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <img src="assets/copo reutilizavel.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="assets/shampoo natural.png" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+  <main class="container my-5">
+    <div class="row g-4">
+
+      <div class="col-md-6">
+        <img src="" class="img-fluid rounded shadow" alt="Camisa Orgânica">
+      </div>
+
+      <div class="col-md-6">
+        <h2 class="fw-bold">Camisa Orgânica</h2>
+        <p class="text-muted">Categoria: Roupas Sustentáveis</p>
+        <p>
+          Esta camisa é feita com algodão 100% orgânico, livre de pesticidas e corantes artificiais. 
+          Ideal para quem busca conforto e sustentabilidade no dia a dia.
+        </p>
+        <h3 class="text-success fw-bold">R$ 89,90</h3>
+        <button class="btn btn-success btn-lg mt-3">
+          <i class="fas fa-shopping-cart me-2"></i> Adicionar ao Carrinho
+        </button>
+
+        <div class="mt-4">
+          <h5>Detalhes:</h5>
+          <ul>
+            <li>Tecido respirável e confortável</li>
+            <li>Disponível nos tamanhos P, M, G, GG</li>
+            <li>Produção ética e sustentável</li>
+          </ul>
         </div>
-        
-    </main>
+      </div>
+    </div>
+  </main>
+
+
+  <section class="container my-5">
+    <h3 class="mb-4">Produtos Relacionados</h3>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="" class="card-img-top" alt="Shampoo de ervas">
+          <div class="card-body">
+            <h5 class="card-title">Shampoo de ervas</h5>
+            <p class="fw-bold text-success">R$ 39,90</p>
+            <a href="" class="btn btn-outline-success w-100">Ver Detalhes</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="" class="card-img-top" alt="Escova de Bambu">
+          <div class="card-body">
+            <h5 class="card-title">Escova de Bambu</h5>
+            <p class="fw-bold text-success">R$ 29,90</p>
+            <a href="" class="btn btn-outline-success w-100">Ver Detalhes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </body>
 <footer class="rodape">
     <div class="rodape_contato">
