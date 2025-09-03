@@ -172,3 +172,6 @@
 
 
 /* Body */
+body {
+    background: linear-gradient(to bottom, var(--cor-branco), var(--cor-cinza));
+}

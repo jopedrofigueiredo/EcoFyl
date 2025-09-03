@@ -172,6 +172,10 @@
 
 
 /* Body */
+body {
+    background: linear-gradient(to bottom, var(--cor-branco), var(--cor-cinza));
+}
+
 .titulo {
     font-family: var(--fonte-primaria);
     font-weight: 600;

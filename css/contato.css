@@ -175,6 +175,7 @@
 
 main {
     padding: 0 0 80px 0;
+    background: linear-gradient(to bottom, var(--cor-branco), var(--cor-cinza));
 }
 
 .titulo {
