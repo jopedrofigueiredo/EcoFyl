@@ -153,8 +153,7 @@
 }
 
 .rodape_redes_sociais a:hover,
-.rodape_contato p:hover,
-.rodape_contato h3:hover {
+.rodape_contato p:hover {
     transform: scale(1.1);
     transition: 300ms;
 }
@@ -197,6 +196,7 @@ main {
 
 .carousel.carousel-dark.slide {
     width: 80%;
+    max-width: 1000px;
     height: 450px;
 }
 
@@ -222,11 +222,12 @@ main {
 
 .btn_lista_produtos {
     width: 50%;
+    max-width: 630px;
     height: 80px;
     border-radius: 25px;
     background-color: var(--cor-secundaria);
     margin: 50px 0;
-        background: linear-gradient(90deg, 
+    background: linear-gradient(90deg, 
         var(--cor-primaria) 0%,
         var(--cor-secundaria) 50%,
         var(--cor-primaria) 100%    
@@ -236,6 +237,7 @@ main {
 .btn_lista_produtos:hover {
     transform: scale(1.1);
     transition: 500ms;
+    background: var(--cor-quaternaria);
 }
 
 .btn_lista_produtos a {
