@@ -127,16 +127,30 @@
 
 }
 
+.rodape_contato div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .rodape_contato h3 {
     font-family: var(--fonte-primaria);
     font-weight: 700;
     padding: 20px 0 10px 0;
 }
 
+.rodape_contato div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 .rodape_contato p {
     font-family: var(--fonte-primaria);
     margin-bottom: 8px;
     font-weight: 500;
+    margin: 0 5px;
 }
 
 .rodape_redes_sociais {
