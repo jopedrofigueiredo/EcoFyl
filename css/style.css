@@ -205,13 +205,13 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 800px;
+    height: 1000px;
 }
 
 .carousel.carousel-dark.slide {
     width: 80%;
     max-width: 1000px;
-    height: 450px;
+    height: 700px;
 }
 
 .carousel.carousel-dark.slide:hover {
@@ -220,18 +220,35 @@ main {
 }
 
 .carousel-inner {
-    height: 450px;
+    height: 700px;
 }
 
 .carousel-item.active {
-    height: 450px;
+    height: 700px;
 }
 
 .d-block.w-100 {
-    height: 450px !important;
-    object-fit: cover;
+    height: 700px !important;
+    object-fit: initial;
     border-radius: 15px;
 
+}
+
+@media (max-width: 800px) {
+    main {
+        height: 800px;
+    }
+
+    .carousel.carousel-dark.slide,
+    .carousel-inner,
+    .carousel-item.active {
+        height: 450px;
+    }
+
+    .d-block.w-100 {
+        height: 450px;
+        object-fit: cover;
+    }
 }
 
 .btn_lista_produtos {
