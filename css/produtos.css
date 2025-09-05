@@ -69,6 +69,11 @@
     color: var(--cor-preto);
 }
 
+.card-img-top {
+  height: 250px;    
+  object-fit: cover;
+}
+
 .cabecalho div:hover {
     background-color: var(--cor-terciaria);
     border-radius: 12px;
