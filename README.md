@@ -10,17 +10,17 @@ Nosso objetivo é facilitar o acesso a produtos sustentáveis e incentivar a sub
 
 Escovas de bambu
 
-Canudos reutilizáveis (inox, vidro e bambu)
+Canudos reutilizáveis 
 
 Copos retráteis de silicone
 
-Sacolas ecológicas (algodão cru e juta)
+Sacolas ecológicas 
 
 Sabonetes e shampoos sólidos
 
 Carregadores solares portáteis
 
-Velas naturais (cera de soja ou abelha)
+Velas naturais 
 
 Roupas de tecidos orgânicos ou reciclados
 
@@ -60,6 +60,9 @@ Contato – Formulário e redes sociais
 
 # Nosso Time
 Erick Anciães - RM 561484
+
 João Pedro Mendes de Figueiredo - RM 558779 
+
 João Paulo Fernandes - RM 563430
+
 Patrick Canuto - RM 563776
