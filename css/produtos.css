@@ -210,3 +210,8 @@ body {
     transform: scale(1.1);
     transition: 500ms;
 }
+
+.card-img-top {
+  height: 250px;    
+  object-fit: cover;
+}
