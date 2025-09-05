@@ -1,8 +1,8 @@
 # EcoFyl
 
-O EcoFyl é um site dedicado a promover um estilo de vida mais consciente e sustentável, oferecendo produtos ecológicos que reduzem o impacto ambiental e incentivam práticas de consumo responsável.
+A EcoFyl é um site dedicado a promover um estilo de vida mais consciente e sustentável, oferecendo produtos ecológicos que reduzem o impacto ambiental e incentivam práticas de consumo responsável.
 
-Objetivo
+# Objetivo
 
 Nosso objetivo é facilitar o acesso a produtos sustentáveis e incentivar a substituição de itens descartáveis e poluentes por alternativas ecológicas, práticas e duradouras.
 
