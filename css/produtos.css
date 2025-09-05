@@ -187,7 +187,12 @@
     border-top: 3px solid var(--cor-cinza);
 }
 
-
+@media (max-width: 567px) {
+    .rodape_contato div {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 /* Body */
 body {
@@ -219,4 +224,18 @@ body {
 .card-img-top {
   height: 250px;    
   object-fit: cover;
+}
+
+.btn.btn-success.w-100.filtrar {
+    background-color: var(--cor-primaria);
+    border: none;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.btn.btn-success.w-100.filtrar:hover {
+    background-color: var(--cor-quaternaria);
+    transform: scale(1.05);
+    transition: 300ms;
+
 }

@@ -182,13 +182,19 @@
     border-top: 3px solid var(--cor-cinza);
 }
 
-
+@media (max-width: 567px) {
+    .rodape_contato div {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 /* Body */
 
 main {
     padding: 0 0 80px 0;
     background: linear-gradient(to bottom, var(--cor-branco), var(--cor-cinza));
+    height: 100vh;
 }
 
 .titulo {
@@ -228,3 +234,4 @@ main {
     transform: scale(1.05) !important;
     transition: 300ms;
 }
+

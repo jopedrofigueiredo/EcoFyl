@@ -182,7 +182,12 @@
     border-top: 3px solid var(--cor-cinza);
 }
 
-
+@media (max-width: 567px) {
+    .rodape_contato div {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 /* Body */
 body {
